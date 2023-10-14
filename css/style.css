@@ -4,7 +4,13 @@ body{
     background-repeat: repeat;
     background-size: 50%;
 }
+.header{
+display:flex;
+padding:10px;
+align-items: center;
+justify-content:space-evenly;
 
+}
 img{border-radius: 5%;}
 .btn-hover {
     transition: transform 0.3s;
@@ -39,8 +45,4 @@ img{border-radius: 5%;}
       grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas pequeñas */
     }
 }
-img {
-    border-radius: 5%;
-    max-width: 100%;
-    height: auto;
-}
+
