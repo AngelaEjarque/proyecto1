@@ -1,14 +1,22 @@
 body {
-    background-image: url(/img/mantel.jpg);
-    background-repeat: repeat;
-    background-size: 40%;
+    background-image: url(/img/cupcake2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
 }
 
-.flex-container {
-    display: flex;
-    justify-content: center;
+.info-container {
+    background-size: 50%;
+    background-color: rgba(254, 193, 236, 0.379);
+    text-align: justify;
     margin-top: 1em;
+    max-width: 800px;
+    margin-left: auto; 
+    margin-right: auto;
+    border-radius: 3%;
 }
+.conoce{text-align: center;}
 .header{
     display:flex;
     padding:10px;
@@ -17,16 +25,19 @@ body {
     
 }
 
-img{border-radius: 5%;}
+img{border-radius: 100%;}
 .btn-hover {
     transition: transform 1s;
 }
 .btn-hover:hover {
    transform: scale(1.2);}
 
-
+   .ceo-image {
+    display: block;
+    margin:auto;
+}
 .pie{
 
-    height: 10em;
+    height: 5em;
 
 }
