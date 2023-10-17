@@ -41,15 +41,26 @@ img{border-radius: 5%;}
 .btn-hover {
     transition: transform 1s;
 }
+.espada {
+    width: 1.5em; 
+    height: auto;
+}
 header .btn-hover:hover {
     transform: scale(1.2);}
 .btn-hover:hover {
-    transform: scale(2.1);}
+    transform: scale(1.1);}
 
 @media (max-width: 600px) {
-    .carta{
-        flex-basis: content; 
+    .carta{flex-basis: auto;
+        max-width: 100%;}
+    .carta img {
+      max-width: 100%;
+       height: auto;
     }
+    .carta h1{font-size: 0.9em;}
+    .carta p{font-size: 0.8em;}
+    
+
 }
 .pie{
 

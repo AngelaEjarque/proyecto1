@@ -3,6 +3,7 @@ body{
     background-image: url(/img/fondo.jpg);
     background-repeat: repeat;
     background-size: 40%;
+    
 }
 .header{
 display:flex;
@@ -44,15 +45,58 @@ img{border-radius: 5%;}
     text-align: center;
     background-color: rgb(250, 206, 231);
 }
+.logo {
+    width: 6em; 
+    height: auto;
+}
+.espada {
+    width: 1.5em; 
+    height: auto;
+}
+.logocentral {
+    width: 4em; 
+    height: auto;
+}
   
 @media (max-width: 600px) {
-    .grid-container {
-      grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas pequeñas */
+    .container {
+        max-width: 100%;
+        height: auto;
     }
-}
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-gap: 10px;
+        max-width: 100%;
+        overflow-x: hidden; /* Evitar scroll horizontal */
+    }
+    .item, .yel {
+        width: 90%;
+        margin: 0 auto;
+        overflow-x: hidden; /* Evitar scroll horizontal */
+    }
+    .item p, .yel p {
+        font-size: 14px;
+    }
+    .item img, .yel img {
+        max-width: 100%;
+        height: auto;
+     }
 
 .pie{
 
     height: 10em;
 
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: none;
+  }
+  
+
+  
+  .item, .yel {
+    width: 100%;
+  }
